@@ -1,0 +1,94 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/logs/main",
+        "pages/counter/main"
+    ],
+    "usingComponents": {
+        "i-row": "iViewWeapp/row/index",
+        "i-col": "iViewWeapp/col/index",
+        "i-grid": "iViewWeapp/grid/index",
+        "i-grid-item": "iViewWeapp/grid-item/index",
+        "i-grid-icon": "iViewWeapp/grid-icon/index",
+        "i-grid-label": "iViewWeapp/grid-label/index",
+        "i-panel": "iViewWeapp/panel/index",
+        "i-cell-group": "iViewWeapp/cell-group/index",
+        "i-cell": "iViewWeapp/cell/index",
+        "i-card": "iViewWeapp/card/index",
+        "i-button": "iViewWeapp/button/index",
+        "i-icon": "iViewWeapp/icon/index",
+        "i-tab-bar": "iViewWeapp/tab-bar/index",
+        "i-tab-bar-item": "iViewWeapp/tab-bar-item/index",
+        "i-tabs": "iViewWeapp/tabs/index",
+        "i-tab": "iViewWeapp/tab/index",
+        "i-drawer": "iViewWeapp/drawer/index",
+        "i-page": "iViewWeapp/page/index",
+        "i-steps": "iViewWeapp/steps/index",
+        "i-step": "iViewWeapp/step/index",
+        "i-notice-bar": "iViewWeapp/notice-bar/index",
+        "i-index": "iViewWeapp/index/index",
+        "i-index-item": "iViewWeapp/index-item/index",
+        "i-sticky": "iViewWeapp/sticky/index",
+        "i-sticky-item": "iViewWeapp/sticky-item/index",
+        "i-action-sheet": "iViewWeapp/action-sheet/index",
+        "i-toast": "iViewWeapp/toast/index",
+        "i-modal": "iViewWeapp/modal/index",
+        "i-message": "iViewWeapp/message/index",
+        "i-spin": "iViewWeapp/spin/index",
+        "i-swipeout": "iViewWeapp/swipeout/index",
+        "i-badge": "iViewWeapp/badge/index",
+        "i-alert": "iViewWeapp/alert/index",
+        "i-tag": "iViewWeapp/tag/index",
+        "i-progress": "iViewWeapp/progress/index",
+        "i-avatar": "iViewWeapp/avatar/index",
+        "i-collapse": "iViewWeapp/collapse/index",
+        "i-collapse-item": "iViewWeapp/collapse-item/index",
+        "i-count-down": "iViewWeapp/count-down/index",
+        "i-divider": "iViewWeapp/divider/index",
+        "i-load-more": "iViewWeapp/load-more/index",
+        "i-input": "iViewWeapp/input/index",
+        "i-radio-group": "iViewWeapp/radio-group/index",
+        "i-radio": "iViewWeapp/radio/index",
+        "i-checkbox-group": "iViewWeapp/checkbox-group/index",
+        "i-checkbox": "iViewWeapp/checkbox/index",
+        "i-switch": "iViewWeapp/switch/index",
+        "i-rate": "iViewWeapp/rate/index",
+        "i-input-number": "iViewWeapp/input-number/index"
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#333",
+        "borderStyle": "white",
+
+        "list": [{
+            "text": "首页",
+            "pagePath": "pages/index/main",
+            "iconPath": "static/tabs/home.png",
+            "selectedIconPath": "static/tabs/home-active.png"
+        }, {
+            "text": "订单",
+            "pagePath": "pages/logs/main",
+            "iconPath": "static/tabs/orders.png",
+            "selectedIconPath": "static/tabs/orders-active.png"
+        }],
+        "items": [{
+            "name": "首页",
+            "pagePath": "pages/index/main",
+            "icon": "static/tabs/home.png",
+            "activeIcon": "static/tabs/home-active.png"
+        }, {
+            "name": "订单",
+            "pagePath": "pages/logs/main",
+            "icon": "static/tabs/orders.png",
+            "activeIcon": "static/tabs/orders-active.png"
+        }],
+        "position": "bottom"
+    }
+}
