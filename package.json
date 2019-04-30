@@ -5,7 +5,7 @@
   "description": "一套高质量的微信小程序 UI 组件库，支持Vue写法，支持Less，支持字体库，使小程序开发更加方便快捷",
   "author": "zgeaw <32237384@qq.com>",
   "homepage": "https://github.com/zgeaw/mpvue-iview",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev:wx": "node build/dev-server.js wx",
     "start:wx": "npm run dev:wx",
