@@ -7,7 +7,7 @@
 
 git clone https://github.com/zgeaw/mpvue-iview.git
 
-#安装依赖
+# 安装依赖
 
 npm install（cnpm i）
 
@@ -19,10 +19,10 @@ npm dev
 打开微信开发者工具，新建项目，将目录指向 /dist 即可实时预览效果
 
 
-#已全局引入iview-weapp，可直接使用
+# 已全局引入iview-weapp，可直接使用
 
 
-#已全局引入Less，可直接写Less语法
+# 已全局引入Less，可直接写Less语法
 
 
 # 打包构建
